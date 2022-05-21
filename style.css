@@ -1,0 +1,47 @@
+.buttonClass {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.about {
+  text-align: left;
+}
+
+.grid {
+  margin-left: -60px;
+  padding-left: 120px;
+  background-image: url(images/aboutSideIMG.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 80px;
+  text-align: left;
+  top: 12%;
+  background-position: -15px 100px;
+}
+
+.secondimg {
+  height: 380px;
+  border-radius: 80% 18% 47% 51% / 60% 52% 44% 40%;
+}
+@media screen and (max-width: 400px) {
+    .secondimg {
+      width: 50%;
+      height: 50%;
+      border-radius: 80% 18% 47% 51% / 60% 52% 44% 40%;
+    }
+  }
+
+
+}
